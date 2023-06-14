@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: url(https://img1.akspic.ru/crops/1/7/2/8/2/128271/128271-voda-otrazhenie-vodnyj_put-utro-majnkraft-1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: rgb(58, 62, 71);
+}
+
+
+.header__body {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 125px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 50px;
+}
+
+.nav__link {
+    display: flex;
+    align-items: center;
+    color: #000;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* -----MAIN----- */
+
+.box {
+    border: 1px solid #00000000;
+    border-radius: 10px;
+    width: 1200px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.181);
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 8px 8px 8px;
+}
+
+.block-1 {
+    width: 100%;
+    height: 100%;
+    background: rgba(7, 255, 11, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px 50px;
+    background-color: rgba(220, 20, 60, 0);
+    justify-content: space-between;
+}
+
+.info-1 {
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+.info__box1 {
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff37;
+    margin: 0 10px;
+    box-shadow: 8px 8px 8px;
+}
+
+.block-1__img{
+    width: 400px;
+}
+
+.block-2__p1{
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.block-2__p2 {
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.info-2 {
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: end;
+    flex-wrap: wrap;
+}
+.info__box2 {
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff37;
+    margin: 0 10px;
+    box-shadow: 8px 8px 8px;
+}
+
+.box1__Title {
+    display: flex;
+    justify-content: center;
+}
+
+.box2__Title {
+    display: flex;
+    justify-content: center;
+}
+
+.box1__img {
+    display: flex;
+    width: 60px;
+}
+
+.box2__img {
+    width: 60px;
+}
+
+.info__box1:nth-child(1){
+    border: 1px solid #00000000;
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+}
+
+.info__box1:nth-child(2){
+    border: 1px solid #00000000;
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+}
+
+.info__box1:nth-child(3){
+    border: 1px solid #00000000;
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+}
+
+.info__box2:nth-child(1){
+    border: 1px solid #00000000;
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+}
+
+.info__box2:nth-child(2){
+    border: 1px solid #00000000;
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+}
+
+.info__box2:nth-child(3){
+    border: 1px solid #00000000;
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+}
+
+.box1__Information {
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box2__Information {
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header__Logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
